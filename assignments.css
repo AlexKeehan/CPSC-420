@@ -1,0 +1,79 @@
+tt { font-size:large;font-weight:bold; }
+ol > li { margin-bottom: 17px; }
+ol > li > ol > li { margin-top: 10px; }
+.emphasize { font-size:x-large;
+             font-weight:bold;
+             font-style:italic;
+             text-decoration:underline;
+             vertical-align:middle;
+}
+img { margin-left:auto; margin-right:auto; display:block;margin-bottom:70px}
+body { margin-left:40px;
+       margin-right:40px;
+       padding-left:40px;
+       padding-right:40px;
+}
+
+h1,h2 { margin-top:40px; }
+h3 { margin-left:10px; }
+
+table, td, th {
+    border: 2px solid gray;
+    text-align: center;
+    padding: 8px;
+}
+table.matrix td {
+    border: none;
+}
+table { 
+    margin: auto; 
+    border-collapse: collapse;
+}
+.console {
+    margin-right:200px;
+    border:dashed;
+    border-width:2px;
+    border-color:grey;
+    padding:9px;
+}
+.file {
+    margin-right:200px;
+    border:solid;
+    border-width:1px;
+    padding:9px;
+}
+
+h1,h2 { margin-left:20px; margin-right:20px; margin-top:40px; }
+h3 { margin-left:20px; margin-right:20px; }
+h4 { margin-left:30px; margin-right:20px; }
+p { margin-left:40px; margin-right:40px;font-size:12pt; }
+img { margin-left:auto; margin-right:auto; }
+li { margin-left:40px; margin-right:40px; margin-top:9px; margin-bottom:6px;}
+li li { margin-left:10px; margin-right:40px; margin-top:9px; margin-bottom:6px;}
+.game { margin-left:80px; 
+    font-family:monospace; font-size:12pt; white-space:pre;}
+dt { margin-left:60px; margin-right:40px; margin-top:20px; margin-bottom:2px;
+    font-weight:bold;}
+dd { margin-left:80px; margin-right:40px; margin-top:9px; margin-bottom:6px;}
+dd > br { margin-bottom:10px; }
+.pts { font-size:14pt;color:darkred;font-weight:bold; }
+.smallpts { font-size:12pt;color:darkred;font-weight:bold; }
+tt { font-size:11pt; }
+pre { margin-left:50px;font-size:12pt; }
+.cmdline { margin-left:50px;font-size:12pt; }
+.code, .file {
+    border:1px solid;
+    margin-left:80px;
+    margin-right:200px;
+    background-color:#e4e4e4;
+    white-space:pre;
+    font-family:monospace;
+    padding:10px;
+}
+.file { 
+    font-size:9pt;
+    background-color:#f6f6f6;
+}
+.change { color:#cc0000; }
+body { margin-bottom:80px;}
+.cite { margin-left:120px; margin-right:120px; }
